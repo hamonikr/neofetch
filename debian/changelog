@@ -1,0 +1,117 @@
+neofetch (7.0.0-1+hamonikr1) unstable; urgency=medium
+
+  * Added HamoniKR ASC II Art
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 29 Dec 2020 14:46:47 +0900
+
+neofetch (7.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 24 Mar 2020 11:26:24 +0900
+
+neofetch (6.1.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 02 Sep 2019 09:05:34 +0900
+
+neofetch (6.0.0-2) unstable; urgency=medium
+
+  * Add chafa to Recommends.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 09 Jan 2019 12:20:03 +0900
+
+neofetch (6.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Dump Standards-Version to 4.3.0.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 09 Jan 2019 12:10:07 +0900
+
+neofetch (5.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 20 Jun 2018 13:28:21 +0900
+
+neofetch (4.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Mon, 28 May 2018 10:40:38 +0900
+
+neofetch (4.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Standards-Version to 4.1.4.
+  * Update debhelper to 11.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 17 May 2018 15:55:57 +0900
+
+neofetch (3.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.1.3.
+  * Update Vcs-Browser and Vcs-Git to salsa.
+  * Add watch file.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 06 Apr 2018 08:01:30 +0900
+
+neofetch (3.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Standards-Version to 4.1.0.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 15 Sep 2017 12:43:35 +0900
+
+neofetch (3.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 24 Jun 2017 06:35:24 +0900
+
+neofetch (3.1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 27 Apr 2017 12:34:35 +0900
+
+neofetch (3.0.1-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 03 Feb 2017 07:09:18 +0900
+
+neofetch (3.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 24 Jan 2017 14:51:21 +0900
+
+neofetch (2.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 07 Dec 2016 21:55:51 +0900
+
+neofetch (2.0.1-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #846934)
+  * Remove debian/patches.
+    All patches were applied to upstream.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 06 Dec 2016 20:31:36 +0900
+
+neofetch (1.9.1-2) unstable; urgency=medium
+
+  * Fix launches pacman game. (Closes: #845629)
+    Thanks to Dylan Araps <dylan.araps@gmail.com>.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Sat, 26 Nov 2016 06:35:37 +0900
+
+neofetch (1.9.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #844175)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 17 Nov 2016 00:03:38 +0900

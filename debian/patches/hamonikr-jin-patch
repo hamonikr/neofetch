@@ -1,0 +1,86 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ neofetch (7.0.0-1+hamonikr1) unstable; urgency=medium
+ .
+   * Added HamoniKR ASC II Art
+Author: HamoniKR <pkg@hamonikr.org>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2020-12-29
+
+--- neofetch-7.0.0.orig/neofetch
++++ neofetch-7.0.0/neofetch
+@@ -9312,36 +9312,34 @@ EOF
+         "HamoniKR"*)
+             set_colors 4 7
+             read -rd '' ascii_data <<'EOF'
+-[color=#808080]                     [/color][color=#5b8b94]√[/color][color=#3b95a6]▓[/color][color=#299bb0]▓[/color][color=#229db4]▓▓▓[/color][color=#4393a1]b[/color][color=#68878c].[/color]
+-[color=#808080]                   [/color][color=#508e9a]p[/color][color=#269cb1]▓[/color][color=#219eb5]▓▓▓▓▓▓▓[/color][color=#219ab4]▓[/color][color=#488e9e]b[/color]
+-[color=#808080]                [/color][color=#748386].[/color][color=#46919f]p[/color][color=#239db3]▓[/color][color=#219db5]▓▓▓▓▓▓▓▓▓▓▓[/color]
+-[color=#808080]              [/color][color=#6c868a]¿[/color][color=#3e94a4]p[/color][color=#219cb4]▓[/color][color=#219bb4]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#278caf]▓[/color][color=#5d8592]ⁿ[/color]
+-[color=#808080]            [/color][color=#64878f]√[/color][color=#3594a9]▓[/color][color=#2199b4]▓[/color][color=#2298b3]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#2688af]▓[/color][color=#4c859b]î[/color]
+-[color=#808080]          [/color][color=#5c8893]√[/color][color=#2f93ac]▓[/color][color=#2295b3]▓[/color][color=#2394b2]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#2684af]▓[/color][color=#2b83ac]▓[/color]
+-[color=#808080]        [/color][color=#538998]p[/color][color=#2a91ae]▓[/color][color=#2391b2]▓[/color][color=#248fb1]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#2780ae]▓[/color][color=#287fad]▓▓[/color]
+-[color=#808080]     [/color][color=#768185].[/color][color=#4c889b]p[/color][color=#338ca9]▓[/color][color=#3f8aa3]▓[/color][color=#48879d]ª[/color][color=#4e859a]"[/color][color=#518498]"""[/color][color=#48839d]ª[/color][color=#3d83a2]▓[/color][color=#2f82aa]▓[/color][color=#2880ad]▓[/color][color=#287fad]▓▓▓▓▓▓[/color][color=#3b78a3]▓[/color]
+-[color=#808080]   [/color][color=#777f84]╓[/color][color=#557b92]▒[/color][color=#3d769a]φ[/color][color=#3b6e97]M[/color][color=#306b9a]▓[/color][color=#27689d]▓[/color][color=#24689e]▓▓▓▓▓[/color][color=#366c98]M[/color][color=#467093]M[/color][color=#5a768c]p[/color][color=#6f7c86].[/color][color=#667e8d]`[/color][color=#4b7b9b]º[/color][color=#2e76aa]▓[/color][color=#2a73ac]▓▓▓[/color][color=#47759c]▓                [/color][color=#716a87].[/color][color=#675b8b]φ[/color][color=#64578d]φφ[/color][color=#716a87].[/color]
+-[color=#808080] [/color][color=#747c83]¿[/color][color=#3e6e96]@[/color][color=#24689e]▓[/color][color=#22679f]▓▓▓▓▓▓▓▓▓▓▓▓[/color][color=#4e7290]"    [/color][color=#5f7990]ⁿ[/color][color=#336da6]▓[/color][color=#2c6aaa]▓▓             [/color][color=#787483].[/color][color=#5a4892]φ[/color][color=#43269d]▓[/color][color=#41239e]▓▓▓▓▓▓[/color][color=#5b4a91]M[/color]
+-[color=#808080] [/color][color=#2d6a9b]▓[/color][color=#22679f]▓[/color][color=#22679f]▓▓▓▓▓▓▓▓▓▓[/color][color=#2b699c]▓[/color][color=#57758d]ⁿ        [/color][color=#486d9b]▓[/color][color=#2e62a8]▓[/color][color=#536e95]b          [/color][color=#736c86]¿[/color][color=#543f95]M[/color][color=#41249e]▓[/color][color=#41239e]▓▓▓▓▓▓▓▓▓[/color][color=#5c4b91]î[/color]
+-[color=#808080] [/color][color=#366c98]▓[/color][color=#22679f]▓[/color][color=#22679f]▓▓▓▓▓▓▓▓[/color][color=#326b9a]▓[/color][color=#5f778a]ⁿ           [/color][color=#47669b]▓[/color][color=#3059a6]▓[/color][color=#4f6797]b       [/color][color=#6d6588]¿[/color][color=#4e3798]▓[/color][color=#41239e]▓[/color][color=#41239e]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#63558e]î[/color]
+-[color=#808080]  [/color][color=#4c7291]ª[/color][color=#29699d]▓[/color][color=#22679f]▓[/color][color=#22679f]▓▓▓▓[/color][color=#3c6e96]▀              [/color][color=#777b84]╙[/color][color=#3253a4]▓[/color][color=#3251a4]▓[/color][color=#3953a0]▓[/color][color=#5f6a8f]p   [/color][color=#675b8b]φ[/color][color=#492f9a]▓[/color][color=#41239e]▓[/color][color=#41239e]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#4d3698]▓[/color][color=#695e8b]ⁿ[/color]
+-[color=#808080]                         [/color][color=#384ea0]▓[/color][color=#344aa2]▓▓▓▓[/color][color=#4b5597]%[/color][color=#62668d]p[/color][color=#6b6888].[/color][color=#675c8b]ⁿ[/color][color=#5c4b91]ª[/color][color=#533d95]▀[/color][color=#4c3399]▓[/color][color=#472c9b]▓[/color][color=#462a9c]▓▓▓[/color][color=#4e3797]▀[/color][color=#533e95]▀[/color][color=#514097]▓[/color][color=#5a4e93]▓[/color]
+-[color=#808080]                        [/color][color=#787983]¿[/color][color=#3645a1]▓[/color][color=#3643a0]▓▓▓▓▓▓▓▓[/color][color=#403f9b]▓[/color][color=#484698]▓[/color][color=#4d4a97]%[/color][color=#514c97]%%%[/color][color=#4b419c]▓[/color][color=#4539a0]▓[/color][color=#534999]▓[/color]
+-[color=#808080]                        ▓[/color][color=#373e9f]▓[/color][color=#373c9f]▓▓▓▓▓▓▓▓▓▓[/color][color=#4134a3]▓▓[/color][color=#4333a4]▓▓[/color][color=#5a4f97]ª[/color]
+-[color=#808080]                       φ[/color][color=#38389e]▓[/color][color=#39389e]▓▓▓▓▓▓▓▓▓▓[/color][color=#4532a5]▓[/color][color=#4732a5]▓▓[/color][color=#625694]ⁿ[/color]
+-[color=#808080]                     [/color][color=#66648c]√[/color][color=#423d9d]▓[/color][color=#3d36a1]▓[/color][color=#3e36a1]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#5038a3]▓[/color][color=#685d91]ⁿ[/color]
+-[color=#808080]                    [/color][color=#4b439c]▓[/color][color=#4035a2]▓[/color][color=#4134a3]▓▓▓▓▓▓▓▓▓▓▓[/color][color=#573ca1]▓[/color][color=#6f648d]ⁿ[/color]
+-[color=#808080]                   [/color][color=#726e88]¿[/color][color=#4532a5]▓[/color][color=#4632a5]▓▓▓▓▓▓▓▓▓▓[/color][color=#5d429f]▓[/color]
+-[color=#808080]                    [/color][color=#5b499a]▓[/color][color=#4c2fa8]▓[/color][color=#4d2fa8]▓▓▓▓▓▓▓[/color][color=#64499c]ª[/color]
+-[color=#808080]                      [/color][color=#685496]"[/color][color=#60449f]▓[/color][color=#5d3ca3]▓[/color][color=#5f3da3]▓[/color][color=#64469e]ª[/color][color=#6e5a93]ⁿ[/color]
+-[color=#808080] [/color]
++${c1}            
++                   _.                   
++                _uS2Sos.                
++              <uXSo2o2os                
++           .<o22oo2o2o2(                
++         .<no2o2o2oooe`                 
++       .%no2oooooooo}                   
++     .vnoooooooooone                    
++   .=i|=====+"!vnnn(                    
++ .|%vvIvvvvvI~  "{n(           .;|||=_  
++.IvIIIIvIvl^      +n,        .=|||+|+|; 
++ vlIvIII%~         <l,     _=||||+|+||; 
++  "|ii>~            vvs,  =||||+|+|=+-  
++                   .vvlll|_==;;====-    
++                   =llllIIvvllll>`      
++                  _llllllliiil+`        
++                .=Illlliliil+`          
++               .illiiiiiii+`            
++               -iiiiiiii~               
++                -+iii>~                                                                                                 
++
+ EOF
+         ;;
+ 
+         "Star"*)
+             set_colors 7
+             read -rd '' ascii_data <<'EOF'
+-${c1}                   ./
++ccccccccccccccccccccccccc                   ./
+                   `yy-
+                  `y.`y`
+     ``           s-  .y            `
