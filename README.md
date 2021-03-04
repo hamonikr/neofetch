@@ -14,3 +14,13 @@ Neofetch는 터미널에서 시스템의 정보를 모두 보여주는 도구입
 
 ![neofetch](docs/neofetch-hamonikr.png)
 
+
+## How to build debian package on HamoniKR
+```
+git clone git@github.com:hamonikr/neofetch.git
+mv neofetch neofetch-7.0.0-1+hamonikr2
+cd neofetch-7.0.0-1+hamonikr2
+dh_make --createorig -i -c gpl3
+TYPE y
+mv ../neofetch-7.0.0_1+hamonikr2.orig.tar.xz neofetch_7.0.0.orig.tar.xz
+dpkg-buildpackage --sign-key=9FA298A1E42665B8
