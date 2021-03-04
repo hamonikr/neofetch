@@ -1,3 +1,9 @@
+neofetch (7.0.0-1+hamonikr2) stable; urgency=medium
+
+  * Release for HamoniKR-Server 2.0
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 04 Mar 2021 15:52:42 +0900
+
 neofetch (7.0.0-1+hamonikr1) unstable; urgency=medium
 
   * Added HamoniKR ASC II Art
