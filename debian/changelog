@@ -1,3 +1,8 @@
+neofetch (7.0.0-1+hamonikr3) stable; urgency=medium
+
+  * Update ascii image
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 20 Apr 2021 13:44:49 +0900
+
 neofetch (7.0.0-1+hamonikr2) stable; urgency=medium
 
   * Release for HamoniKR-Server 2.0

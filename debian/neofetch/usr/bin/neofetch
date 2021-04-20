@@ -7080,33 +7080,28 @@ EOF
         ;;
         
         "HamoniKR"*)
-            set_colors 4 7 99 1 3 7
+            set_colors 4 7
             read -rd '' ascii_data <<'EOF'
 ${c1}            
-                    ok0O0Oxc 
-                  .ldddddddo.               
-                .lddddddddddo              
-              'lddddddddddddc              
-            ,oddddddddddddd;                   
-          'ldddddddddddddo.                    
-       .;oddddddddddddddc.                     
-      ,ddddddddddddddddo.                      
-    ,cc::;,,,';coddoooo:                       
-  ,ccclllllllc;,..,looo;${c3}                ...... 
-${c1}.cllllllllllll:.    .lol${c3}             .,;;;;;;;'
-${c1}llllllllllllc.        co;${c3}          .,;;;;;;;;;;
-${c1}clllllllllc.          ${c3}.lo;       .,;;;;;;;;;;;;
-${c1}.;lllllc;.             ${c3}'llc.   .,;;;;;;;;;;;;;.
-${c1}   ....                ${c3}.llllc;''.',,,;;,,;:;.  
-                       .llllllllc:;,,,;;::.    
-                       :lllllllllllcccc:'      
-                      ;llllllllcccccc;.        
-                    .:llllccccccccc;.          
-                   ;llccccccccccc;.            
-                  .cccccccccccc;.              
-                  .cccccccccc,.                
-                   .:cccccc'                
-                                                                                           
+                   _.                   
+                _uS2Sos.                
+              <uXSo2o2os                
+           .<o22oo2o2o2(                
+         .<no2o2o2oooe`                 
+       .%no2oooooooo}                   
+     .vnoooooooooone                    
+   .=i|=====+"!vnnn(                    
+ .|%vvIvvvvvI~  "{n(           .;|||=_  
+.IvIIIIvIvl^      +n,        .=|||+|+|; 
+ vlIvIII%~         <l,     _=||||+|+||; 
+  "|ii>~            vvs,  =||||+|+|=+-  
+                   .vvlll|_==;;====-    
+                   =llllIIvvllll>`      
+                  _llllllliiil+`        
+                .=Illlliliil+`          
+               .illiiiiiii+`            
+               -iiiiiiii~               
+                -+iii>~                                                                                                 
 EOF
         ;;
         
