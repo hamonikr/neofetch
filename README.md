@@ -12,7 +12,7 @@ Neofetch는 터미널에서 시스템의 정보를 모두 보여주는 도구입
 
 * 이 저장소는 하모니카 4.0 에 적합한 정보를 보여주도록 수정된 버전입니다.
 
-![neofetch](docs/neofetch-hamonikr.png)
+![neofetch](docs/neofetch-hamonikr2.png)
 
 
 ## How to build debian package on HamoniKR
