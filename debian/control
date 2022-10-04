@@ -1,16 +1,17 @@
 Source: neofetch
-Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Maintainer: HamoniKR <pkg@hamonikr.org>
 Section: utils
 Priority: optional
 Build-Depends: debhelper (>= 11)
 Standards-Version: 4.3.0
-Vcs-Browser: https://salsa.debian.org/debian/neofetch
-Vcs-Git: https://salsa.debian.org/debian/neofetch.git
-Homepage: https://github.com/dylanaraps/neofetch
+Vcs-Browser: https://github.com/hamonikr/neofetch
+Vcs-Git: https://github.com/hamonikr/neofetch
+Homepage: https://github.com/hamonikr/neofetch
 
 Package: neofetch
 Architecture: all
 Depends: ${misc:Depends}
+Replaces: 
 Recommends: chafa
 Description: Shows Linux System Information with Distribution Logo
  Neoftech is a cross-platform and easy-to-use system information

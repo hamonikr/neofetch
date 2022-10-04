@@ -15,11 +15,13 @@
 <a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 <a href="https://github.com/dylanaraps/neofetch/releases"><img src="https://img.shields.io/github/release/dylanaraps/neofetch.svg"></a>
 
-This project origin is https://github.com/dylanaraps/neofetch
+
 
 Neofetch는 터미널에서 시스템의 정보를 모두 보여주는 도구입니다. (`bash 3.2+`)
 
 * 이 프로그램은 터미널에서 하모니카 OS 에 적합한 정보를 보여주도록 수정된 버전입니다.
+* This project origin is https://github.com/dylanaraps/neofetch
+* other repo : https://github.com/Jin-Asanami/unifetch
 
 ![neofetch](docs/neofetch-hamonikr.png)
 
